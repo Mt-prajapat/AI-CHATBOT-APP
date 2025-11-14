@@ -1,0 +1,341 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon",
+        "Good evening", "Howdy", "What's up", "Yo"
+      ],
+      "responses": [
+        "Hello! How can I assist you today? 🌟",
+        "Hi there! What can I do for you? 😊",
+        "Hey! Great to see you. How can I help?",
+        "Greetings! I'm here to help with anything you need."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you", "Take care", "Farewell",
+        "Catch you later", "I'm leaving", "Have a good day"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back anytime! 👋",
+        "See you later! It was nice chatting with you!",
+        "Take care! Looking forward to our next conversation!",
+        "Farewell! Don't hesitate to reach out if you need anything!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Awesome, thanks",
+        "Thanks for the help", "Thank you so much", "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Happy to help! 💫",
+        "Anytime! That's what I'm here for.",
+        "Glad I could assist you! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?", "What are you?", "Introduce yourself",
+        "Tell me about yourself", "What can you do?",
+        "What is your purpose?", "Are you a robot?"
+      ],
+      "responses": [
+        "I'm an AI chatbot created to assist and chat with you! 🤖",
+        "I'm your friendly AI assistant here to help with questions and have meaningful conversations!",
+        "I'm a smart chatbot powered by AI. I can answer questions, provide information, and have engaging conversations!",
+        "I'm an artificial intelligence designed to be helpful, informative, and entertaining!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "I need help", "Can you help me?", "What can you do?",
+        "How does this work", "Support", "Assistance"
+      ],
+      "responses": [
+        "I can help you with various tasks! Try asking me about:\n• General knowledge\n• Casual conversation\n• Problem solving\n• Creative writing\nOr just chat with me about anything! 💡",
+        "I'm here to assist with questions, conversations, information, and more! What would you like to know or discuss?",
+        "I can answer questions, provide information, help with ideas, or just have a friendly chat. What's on your mind?",
+        "As your AI assistant, I can:\n• Answer questions\n• Provide information\n• Help with tasks\n• Engage in conversation\nWhat would you like to do?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?", "How's the weather today?",
+        "Weather forecast", "Is it raining?", "Temperature today"
+      ],
+      "responses": [
+        "I don't have real-time weather data, but I recommend checking your local weather app! 🌤️",
+        "For accurate weather information, please check a dedicated weather service in your area.",
+        "I specialize in conversation rather than real-time weather data. Try a weather website for current conditions!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Do you know any jokes?",
+        "Funny story", "Entertain me"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 😄",
+        "Why did the scarecrow win an award? He was outstanding in his field! 🌾",
+        "Why don't eggs tell jokes? They'd crack each other up! 🥚",
+        "What do you call a fake noodle? An impasta! 🍝",
+        "Why did the math book look so sad? Because it had too many problems! 📚"
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is AI?", "Explain artificial intelligence",
+        "How do you work?", "Machine learning",
+        "Are you intelligent?"
+      ],
+      "responses": [
+        "AI (Artificial Intelligence) is the simulation of human intelligence in machines programmed to think and learn like humans! 🧠",
+        "I work using natural language processing and machine learning algorithms to understand and respond to your messages!",
+        "Artificial Intelligence enables machines to learn from experience and perform human-like tasks through algorithms and data analysis!",
+        "I'm designed to process language and generate helpful responses using advanced AI models and training data!"
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": [
+        "How are you?", "Are you okay?", "What's up?",
+        "How do you feel?", "You good?"
+      ],
+      "responses": [
+        "I'm functioning perfectly! Thanks for asking. How are you doing? 😊",
+        "I'm great! Ready to help you with anything you need. How about you?",
+        "I'm doing well! As an AI, I'm always here and ready to chat. What's new with you?",
+        "I'm operating at 100%! How can I make your day better?"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?", "Current time", "What's the date?",
+        "Day today", "Time please"
+      ],
+      "responses": [
+        "I don't have access to real-time clock data, but you can check your device's time! ⏰",
+        "For accurate time and date, please check your computer or phone's clock.",
+        "I'm not connected to a real-time clock service. Your device will have the current time!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Python programming", "How to code", "Programming help",
+        "Learn programming", "Coding questions"
+      ],
+      "responses": [
+        "Python is a great programming language! I can help with basic programming concepts and best practices. 💻",
+        "For programming help, I recommend starting with official documentation and practice projects!",
+        "Learning to code? That's awesome! Python, JavaScript, and Java are great starting languages.",
+        "Programming involves problem-solving, logic, and creativity. What specific language or concept are you interested in?"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Music recommendations", "Good songs", "What music do you like?",
+        "Play music", "Music genres"
+      ],
+      "responses": [
+        "I think music is amazing! While I can't play songs, I can suggest exploring different genres like classical, rock, jazz, or electronic! 🎵",
+        "Music tastes are personal! I recommend checking out streaming platforms for recommendations based on your preferences.",
+        "I appreciate all music genres! What type of music are you currently enjoying?",
+        "From Beethoven to Beyoncé, music is universal! What's your favorite genre or artist?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening",
+        "Howdy", "What's up", "Yo", "Hi there", "Hello there", "Greetings",
+        "Nice to meet you", "How are you", "What's going on", "How's it going",
+        "Good to see you", "Long time no see", "How have you been", "What's new"
+      ],
+      "responses": [
+        "Hello! How can I assist you today? 🌟",
+        "Hi there! What can I do for you? 😊",
+        "Hey! Great to see you. How can I help?",
+        "Greetings! I'm here to help with anything you need.",
+        "Welcome! I'm ready to assist with questions, calculations, or just chat!",
+        "Hi! I'm your AI assistant. Feel free to ask me anything!",
+        "Hello there! How can I make your day better?",
+        "Hey! I'm here and ready to help. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "mathematics",
+      "patterns": [
+        "Solve 2+2", "What is 5*5", "Calculate 10/2", "Math help",
+        "Solve equation", "Calculate area", "Mathematics", "Algebra",
+        "Geometry", "Calculus", "Statistics", "Trigonometry",
+        "Solve for x", "Quadratic equation", "Derivative", "Integral",
+        "0/0", "Divide by zero", "Infinity", "Undefined",
+        "Square root", "Power", "Exponent", "Logarithm",
+        "Factorial", "Percentage", "Probability", "Matrix"
+      ],
+      "responses": [
+        "Let me solve that mathematical problem for you!",
+        "Here's the solution to your math question:",
+        "I've calculated the answer for you:",
+        "Mathematical solution coming right up!",
+        "Based on the calculation, here's the result:"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Python code", "JavaScript help", "Programming error",
+        "Code review", "Debugging", "Algorithm", "Data structures",
+        "Web development", "Mobile app", "Database", "API",
+        "Machine learning", "AI programming", "Git", "Docker",
+        "How to code", "Learn programming", "Best programming language",
+        "Python vs JavaScript", "Frontend backend", "Full stack"
+      ],
+      "responses": [
+        "I can help with programming concepts and code examples! 💻",
+        "Let me assist you with that programming question.",
+        "Here's some guidance for your coding problem:",
+        "I can provide code examples and best practices for that.",
+        "For programming help, I recommend these approaches:"
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Physics", "Chemistry", "Biology", "Science facts",
+        "Quantum mechanics", "Relativity", "Periodic table",
+        "Cells", "DNA", "Evolution", "Astronomy",
+        "Space", "Planets", "Black holes", "Big bang",
+        "Climate change", "Environment", "Ecology",
+        "Scientific method", "Research", "Experiments"
+      ],
+      "responses": [
+        "That's an interesting scientific question! 🔬",
+        "Let me explain the science behind that:",
+        "Here are some scientific facts about that topic:",
+        "From a scientific perspective:",
+        "Science has some fascinating insights on this:"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "AI", "Machine learning", "Deep learning", "Neural networks",
+        "Blockchain", "Cryptocurrency", "Bitcoin", "Ethereum",
+        "Cloud computing", "AWS", "Azure", "Google Cloud",
+        "Cybersecurity", "Encryption", "Privacy", "Data protection",
+        "Internet of Things", "IoT", "5G", "6G",
+        "Virtual reality", "Augmented reality", "Metaverse",
+        "Robotics", "Automation", "Self-driving cars", "Drones"
+      ],
+      "responses": [
+        "Technology is evolving rapidly! Here's what you should know: 🚀",
+        "Let me explain that technology concept:",
+        "In the world of tech, here's how that works:",
+        "That's a great tech question! Here's the answer:",
+        "Technology has some interesting developments in that area:"
+      ]
+    },
+    {
+      "tag": "business",
+      "patterns": [
+        "Startup", "Entrepreneurship", "Marketing", "Sales",
+        "Finance", "Investment", "Stock market", "Cryptocurrency",
+        "Business strategy", "Management", "Leadership",
+        "E-commerce", "Digital marketing", "SEO", "Social media",
+        "Economics", "Market analysis", "Business plan",
+        "VC funding", "Angel investors", "IPO", "Mergers acquisitions"
+      ],
+      "responses": [
+        "Business insights coming your way! 💼",
+        "Let me provide some business perspective on that:",
+        "In business terms, here's what that means:",
+        "For business success, consider these approaches:",
+        "Here are some business strategies for that situation:"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "Health tips", "Fitness", "Exercise", "Nutrition",
+        "Diet", "Weight loss", "Mental health", "Meditation",
+        "Yoga", "Sleep", "Wellness", "Healthcare",
+        "Medical", "Disease prevention", "Immune system",
+        "COVID-19", "Vaccines", "Public health",
+        "Healthy lifestyle", "Longevity", "Aging"
+      ],
+      "responses": [
+        "Health is wealth! Here are some tips: 🏥",
+        "For better health, consider these recommendations:",
+        "Here's what science says about health and wellness:",
+        "Maintaining good health involves:",
+        "Health professionals suggest these practices:"
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Learning", "Study tips", "Online courses", "University",
+        "College", "Homework help", "Research", "Thesis",
+        "Online education", "MOOCs", "Coursera", "Udemy",
+        "Skills development", "Career growth", "Professional development",
+        "Language learning", "Certifications", "Degrees"
+      ],
+      "responses": [
+        "Education opens doors! Here's some learning guidance: 📚",
+        "For effective learning, try these methods:",
+        "Here are some study tips and educational resources:",
+        "To enhance your education, consider these approaches:",
+        "Learning strategies that work well include:"
+      ]
+    },
+    {
+      "tag": "philosophy",
+      "patterns": [
+        "Meaning of life", "Philosophy", "Ethics", "Morality",
+        "Existentialism", "Stoicism", "Buddhism", "Meditation",
+        "Consciousness", "Reality", "Truth", "Wisdom",
+        "Happiness", "Success", "Purpose", "Destiny",
+        "Free will", "Determinism", "Human nature"
+      ],
+      "responses": [
+        "Deep philosophical questions! Let's explore: 🧘",
+        "Philosophy offers various perspectives on that:",
+        "Great thinkers have pondered similar questions:",
+        "From a philosophical standpoint:",
+        "That's a profound question. Here are some thoughts:"
+      ]
+    },
+    {
+      "tag": "entertainment",
+      "patterns": [
+        "Movies", "TV shows", "Music", "Games",
+        "Books", "Novels", "Art", "Culture",
+        "Celebrities", "Sports", "Football", "Basketball",
+        "Gaming", "Streaming", "Netflix", "YouTube",
+        "Social media", "TikTok", "Instagram", "Facebook"
+      ],
+      "responses": [
+        "Entertainment time! Here's what's interesting: 🎬",
+        "In the world of entertainment:",
+        "Here are some popular trends in entertainment:",
+        "For entertainment recommendations:",
+        "That's a fun topic! Here's what you should know:"
+      ]
+    }
+  ]
+}
